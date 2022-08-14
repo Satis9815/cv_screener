@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: rgb(154, 154, 234);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container h2{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#next{
+    padding: 5px 5px;
+    width: 150px;
+    font-size: 23px;
+    font-weight: 600;
+    background: #575757;
+    border-radius: 10px;
+    color: white;
+    margin-top: 5px;
+}
+#next:hover{
+    cursor: pointer;
+    background-color: rgb(119, 119, 231);
+}
